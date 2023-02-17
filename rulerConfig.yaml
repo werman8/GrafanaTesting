@@ -1,0 +1,11 @@
+ruler:
+  storage:
+    type: local
+    local:
+      directory: /tmp/rules
+  rule_path: /tmp/scratch
+  altermanager_url: http://localhost
+  ring:
+    kvstore:
+      store: inmemory
+  enable_api: true
